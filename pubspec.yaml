@@ -1,0 +1,39 @@
+name: examen01
+description: "TernoFit - Catálogo de alquiler de ternos"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  firebase_core: ^2.30.0
+  cloud_firestore: ^4.17.0
+  provider: ^6.1.2
+  cached_network_image: ^3.3.1
+  intl: 0.20.2
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/terno.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/terno.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+  
