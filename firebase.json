@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "examen01-9c603",
+          "configurations": {
+            "web": "1:614512660493:web:fa56668d6951b9531e8544"
+          }
+        }
+      }
+    }
+  }
+}

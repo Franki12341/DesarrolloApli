@@ -1,0 +1,7 @@
+{
+    "@@locale": "en",
+    "appTitle": "Suit Rental",
+    "@appTitle": {
+        "description": "Application title"
+    }
+}

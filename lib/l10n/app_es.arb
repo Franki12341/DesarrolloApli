@@ -1,0 +1,7 @@
+{
+    "@@locale": "es",
+    "appTitle": "Alquiler de Ternos",
+    "@appTitle": {
+        "description": "Título de la aplicación"
+    }
+}
